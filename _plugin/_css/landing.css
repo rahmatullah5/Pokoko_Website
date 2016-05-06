@@ -1,0 +1,1345 @@
+@import url("classes.css");
+@-moz-import url("classes.css");
+@-webkit-import url("classes.css");
+@-o-import url("classes.css");
+
+body{
+	margin: 0;
+	background-color: #fff;
+	font-family: Segoe UI Light, segoe ui,sans-serif;
+	overflow-x: hidden;
+	position: relative;
+}
+
+#skip{
+	width: 250px;
+	height: 40px;
+	background-color: #1F1A30;
+	padding-top: 10px;
+	color: #fff;
+	position: fixed;
+	font-size: 15pt;
+	z-index: 1000;
+	top: 580px;
+	left: 1050px;
+}
+
+a{
+	text-decoration: none;
+}
+
+p{
+	margin: 0px;
+	padding: 0px;
+}
+
+#header{
+	position: fixed;
+	background-color: #fff;
+	float: center;
+	margin-top: -10px;
+	z-index: 100;
+}
+
+#h{
+	width: 1200px;
+	height: 100px;
+}
+
+#h-logo{
+	width: 215px;
+	height: 100px;
+	background-color: ;
+}
+
+#h-logo img{
+	height: 80px;
+	margin-top: 10px;
+
+}
+
+#h-nav{
+	width: 492px;
+	height: 100px;
+}
+
+#h-nav ul{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	width: 492px;
+	height: 100px;
+	overflow: hidden;
+	position: relative;
+}
+
+#h-nav ul a li{
+	float: left;
+	padding: 0px;
+	margin: 0px;
+	padding: 0px;
+	width: 243px;
+	height: 90px;
+	margin-top: 9px;
+	transition: 0.5s;
+}
+
+#h-nav ul a:hover #yellow{
+	background-color: #fbed04;
+	border-left: 1px solid #fbed04;
+	border-right: 1px solid #fbed04;
+}
+
+#h-nav ul a:hover #dark-blue{
+	background-color: #03a6be;
+}
+
+#h-nav ul a:hover #light-blue{
+	background-color: #01c3df;
+	border-right: 1px solid #01c3df;
+}
+
+#h-nav ul a:hover #pink{
+	background-color: #fe3153;
+	border-right: 1px solid #fe3153;
+}
+
+#h-nav ul a li img{
+	width: 50px;
+	margin-top: 20px;
+	margin-left: 20px;
+	background-color: ;
+	float: left;
+	transition: 0.5s;
+}
+
+#h-nav ul a li p{
+	font-family: Segoe UI Light;
+	color: #aeaeae;
+	background-color: ;
+	float: left;
+	width: 170px;
+	padding: 0px;
+	transition: 0.5s;
+}
+
+#h-nav ul a li #home{
+	margin-top: 25px;
+}
+
+#h-nav ul a:hover li img{
+	margin-top: -100px;
+}
+
+#h-nav ul a:hover li p{
+	width: 243px;
+	background-color: ;
+	text-align: center;
+	color: #fff;
+}
+
+#h-nav ul a:hover #pink p{
+	font-size: 15pt;
+	padding-top: 10px;
+}
+
+#triangle-1{
+	width: 0;
+	height: 0;
+	border-top: 20px solid #fff;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+}
+
+#triangle-1-light-blue{
+	width: 0;
+	height: 0;
+	border-top: 20px solid #01c3df;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	margin-top: -70px;
+}
+
+#triangle-1-pink{
+	width: 0;
+	height: 0;
+	border-top: 20px solid #fe3153;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	margin-top: -70px;
+}
+
+#triangle-1-yellow{
+	width: 0;
+	height: 0;
+	border-top: 25px solid #fbed04 !important;
+	border-left: 25px solid transparent !important;
+	border-right: 25px solid transparent !important;
+	margin-top: -70px;
+}
+
+#triangle-2{
+	width: 0;
+	height: 0;
+	border-top: 100px solid #fe3153;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+}
+
+#nav-small{
+	visibility: hidden;
+}
+
+#slider{
+	width: 100%;
+	height: 550px;
+	margin-top: 10px;
+	padding-top: 100px;
+}
+
+#slider img{
+	width: 100%;
+}
+
+#apa{
+	width: 100%;
+	height: 600px;
+	padding-top: 100px;
+	background: #03a6be url('../../_img/buat-apa.png') bottom center no-repeat;
+	background-size: cover;
+}
+
+#apa p:first-child{
+	width: 500px;
+	height: 100px;
+	margin-top: 100px;
+	margin-left: 100px;
+}
+
+#apa p:nth-child(2){
+	width: 600px;
+	height: 190px;
+	margin-top: 60px;
+	margin-left: 470px;
+	text-align: justify;
+	border-left: 2px solid #fff;
+	padding-top: 10px;
+	padding-left: 20px;
+}
+
+#mengapa{
+	width: 100%;
+	height: 600px;
+	padding-top: 100px;
+	background: #01c3df url('../../_img/benefit.png') center center no-repeat;
+	background-size: cover;
+}
+
+#mengapa ul{
+	width: 1200px;
+	height: 400px;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	margin-top: 80px;
+}	
+
+#mengapa ul li{
+	width: 350px;
+	height: 400px;
+	padding: 0px;
+	margin: 0px;
+	margin-right: 50px;
+	float: left;
+}
+
+#mengapa ul li #circle-b{
+	width: 200px;
+	height: 200px;
+	border-radius: 3px;
+}
+
+#mengapa ul li #circle-b img{
+	height: 150px;
+	margin-top: 20px;
+}
+
+#mengapa ul li #circle-b p{
+	margin-top: 25px;
+	background-color: #fff;
+	line-height: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#mengapa ul li:last-child{
+	margin-right: 0px;
+	margin-left: 50px;
+}
+
+#me{
+	visibility: hidden;
+}
+
+#bagaimana{
+	width: 100%;
+	height: 600px;
+	padding-top: 100px;
+}
+
+#bagaimana #b-2{
+	visibility: hidden;
+}
+
+#bagaimana #label-1{
+	visibility: hidden;
+}
+
+#how-list{
+	width: 1200px;
+	height: 470px;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+#how-list li{
+	width: 599px;
+	height: 450px;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}
+
+#how-list li #pertama{
+	width: 520px;
+	height: 50px;
+	float: left;
+	padding-left: 10px;
+}
+
+#how-list li #kedua{
+	width: 50px;
+	height: 50px;
+	float: right;
+	margin-right: 10px;
+	background-color: #fff;
+}
+
+#how-list li:first-child{
+	border-right: 1px solid #fff;
+}
+
+.kolom-1{
+	width: 590px;
+	height: 120px;
+	margin-bottom: 10px;
+	float: left;
+}
+
+.kolom-1 table{
+	width: 590px;
+	height: 120px;
+}
+
+.kolom-1 table tr{
+	width: 590px;
+	height: 120px;
+}
+
+.kolom-1 table tr td{
+	width: 195px;
+	height: 120px;
+}
+
+.kolom-1 table tr td img{
+	height: 120px;
+}
+
+#footer{
+	width: 100%;
+	height: 400px;
+	z-index: -2;
+	position: relative;
+	background: #fff url('../../_img/footer.png') left center no-repeat;
+	background-size: cover;
+}
+
+#footer #info{
+	width: 35%;
+	height: 150px;
+	float: right;
+	margin-top: 170px;				
+}
+
+#copy{
+	visibility: hidden;
+}
+
+#footer #info ul{
+	width: 100%;
+	height: 100px;
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	margin-top: 40px;
+}
+
+#footer #info ul li{
+	width: 100%;
+	height: 50px;
+	background-color: ;
+	margin-bottom: 10px;
+}
+
+#footer #info ul li p{
+	margin-top: 10px;
+	margin-left: 20px;
+	float: left;
+}
+
+#footer #info-2{
+	visibility: hidden;
+}
+
+@media screen and (max-width: 1200px){
+	#skip{
+		top: 480px;
+		left: 850px;
+	}
+
+	#h{
+		width: 1000px;
+		height: 80px;
+	}
+
+	#h-nav{
+		width: 410px;
+		height: 80px;
+	}
+
+	#h-logo{
+		width: 180px;
+		height: 80px;
+	}
+
+	#h-logo img{
+		height: 65px;
+	}
+
+	#triangle-1{
+		border-top: 50px solid #fff;
+		border-left: 90px solid transparent;
+		border-right: 90px solid transparent;
+		margin-left: 0px;
+		margin-top: 0px;
+	}
+
+	#h-nav ul{
+		width: 410px;
+		height: 80px;
+	}
+
+	#h-nav ul a li{
+		width: 204px;
+		height: 70px;
+	}
+
+	#h-nav ul a li img{
+		width: 40px;
+		margin-top: 10px;
+	}
+
+	#h-nav ul a li p{
+		width: 135px;
+		margin-top: 5px !important;
+	}
+
+	#h-nav ul a li #home{
+		margin-top: 15px !important;
+	}
+
+	#h-nav ul a li #how{
+		margin-top: 10px !important;
+	}
+
+	#h-nav ul a:hover li p{
+		width: 196px;
+		text-align: center;
+		color: #fff;
+	}
+
+	#h-nav ul a:hover #pink p{
+		font-size: 12pt;
+		padding-top: 10px;
+	}
+
+	#h-nav ul a:hover #dark-blue p,#h-nav ul a:hover #light-blue p{
+		margin-top: 20px !important;
+	}
+
+	#slider{
+		height: 480px;
+		padding-top: 70px;
+	}
+
+	#slider img{
+		width: 100%;
+	}
+
+	#apa{
+		height: 500px;
+	}
+
+	#apa p:first-child{
+		margin-left: 0px;
+		font-size: 35pt !important;
+		width: 400px;
+		margin-top: 120px;
+	}
+
+	#apa p:last-child{
+		margin-left: 350px;
+	}
+
+	#mengapa{
+		height: 500px;
+	}
+
+	#mengapa > p{
+		font-size: 35pt !important;
+	}
+
+	#mengapa ul{
+		width: 870px;
+		margin-top: 50px;
+		height: 320px;
+	}
+
+	#mengapa ul li{
+		width: 280px;
+		margin-right: 10px;
+		height: 320px;
+	}
+
+	#mengapa ul li:last-child{
+		margin-right: 0px;
+		margin-left: 10px;
+	}
+
+	#bagaimana{
+		height: 470px;
+	}
+
+	#bagaimana > p{
+		font-size: 30pt !important;
+		margin-top: -10px !important
+	}
+
+	#bagaimana ul{
+		width: 1000px;
+		height: 400px;
+		margin-top: -10px !important;
+	}
+
+	#bagaimana ul li{
+		width: 499px;
+		height: 400px;
+	}
+
+	#bagaimana ul li #kedua{
+		visibility: hidden;
+	}
+
+	#bagaimana ul li #pertama{
+		width: 420px;
+		height: 40px;
+		font-size: 20pt !important;
+	}
+
+	.kolom-1{
+		width: 499px;
+		height: 122px;
+		margin: 0px;
+		margin-top: -10px;
+	}
+
+	.kolom-1 table{
+		width: 499px;
+		height: 122px;
+		font-size: 10pt;
+	}
+
+	.kolom-1 table tr{
+		width: 499px;
+		height: 122px;
+	}
+
+	.kolom-1 table tr td{
+		width: 165px;
+		height: 122px;
+	}
+
+	.kolom-1 table tr td img{
+		height: 100px;
+	}
+
+	#footer{
+		background-position: right center
+	}
+}
+
+@media screen and (max-width: 960px){
+	#skip{
+		width: 180px;
+		height: 30px;
+		font-size: 12pt;
+		top: 380px;
+		left: 700px;
+	}
+
+	#h{
+		width: 600px;
+		height: 60px;
+	}
+
+	#h-nav{
+		width: 250px;
+		height: 60px;
+	}
+
+	#h-logo{
+		width: 100px;
+		height: 60px;
+	}
+
+	#h-logo img{
+		height: 35px;
+	}
+
+	#triangle-1{
+		border-top: 35px solid #fff;
+		border-left: 50px solid transparent;
+		border-right: 50px solid transparent;
+		margin-left: 0px;
+		margin-top: 10px;
+	}
+
+	#h-nav ul{
+		width: 250px;
+		height: 60px;
+	}
+
+	#h-nav ul a li{
+		width: 124px;
+		height: 55px;
+		background-color: ;
+		margin-top: 4px;
+		float: left;
+	}
+
+	#h-nav ul a li img{
+		width: 35px;
+		margin-top: 8px;
+		margin-left: 45px;
+	}
+
+	#h-nav ul a li p{
+		width: 124px;
+	}
+
+	#h-nav ul a li #home{
+		font-size: 12pt !important;
+	}
+
+	#h-nav ul a li #what,#h-nav ul a li #why{
+		font-size: 12pt !important;
+		margin-top: 15px !important;
+	}
+
+	#h-nav ul a li #how{
+		margin-top: 15px !important;
+	}
+
+	#h-nav ul a:hover li p{
+		width: 124px;
+		margin-top: -70px !important;
+	}
+
+	#h-nav ul a:hover #pink p{
+		margin-top: 5px !important;
+		padding-top: 0px;
+	}
+
+	#h-nav ul a:hover #dark-blue p{
+		margin-top: 15px !important;
+	}
+
+	#h-nav ul a:hover #light-blue p{
+		margin-top: 5px !important;
+	}
+
+	#slider{
+		height: 380px;
+	}
+
+	#apa{
+		height: 380px;
+	}
+
+	#apa p:first-child{
+		margin: 0px;
+		margin-top: -40px !important;
+		height: 70px;
+		margin-left: 250px;
+		font-size: 30pt !important;
+		font-family: Bellerose !important;
+		line-height: 40px;
+	}
+
+	#apa p:last-child{
+		margin: 0px;
+		border-left: 0px;
+		border-top: 3px solid #fff;
+		margin-top: 40px;
+		font-size: 12pt !important;
+		width: 500px;
+		padding-top: 30px !important;
+	}
+
+	#mengapa{
+		height: 380px;
+		padding-top: 60px;
+	}
+
+	#mengapa > p{
+		font-size: 25pt !important;
+	}
+
+	#mengapa ul{
+		width: 600px;
+		height: 300px;
+		margin-top: 50px;
+	}
+
+	#mengapa ul li #triangle-1-light-blue,#mengapa ul li #triangle-1-pink{
+		margin-top: -140px;
+	}
+
+	#mengapa ul li #triangle-1-yellow{
+		margin-top: -120px;
+		border-top: 15px solid #fbed04 !important;
+		border-left: 15px solid transparent !important;
+		border-right: 15px solid transparent !important;
+	}
+
+	#mengapa ul li{
+		width: 150px;
+		height: 250px;
+		margin: 0px;
+		margin-right: 70px;
+	}
+
+	#mengapa ul li:last-child{
+		margin: 0px;
+	}
+
+	#mengapa ul li #circle-b{
+		width: 150px;
+		height: 150px;
+	}
+
+	#mengapa ul li #circle-b img{
+		height: 100px;
+	}
+
+	#mengapa ul li #circle-b p{
+		font-size: 12pt !important;
+	}
+
+	#bagaimana{
+		height: 380px;
+	}
+
+	#bagaimana > p{
+		margin-top: -30px !important;
+		font-size: 25pt !important
+	}
+
+	#bagaimana #b-1{
+		margin-left: -3000px;
+		visibility: hidden;
+	}
+
+	#bagaimana #b-2{
+		visibility: visible;
+		width: 600px;
+		height: 320px;
+		margin-top: -400px;
+	}
+
+	#bagaimana #b-2 ul{
+		width: 500px;
+		height: 320px;
+		margin: 0px;
+		padding: 0px;
+		list-style: none;
+	}
+
+	#bagaimana #b-2 ul li{
+		width: 500px;
+		height: 155px;
+		margin-bottom: 10px;
+	}
+
+	#bagaimana #b-2 ul li #circle-c{
+		width: 100px;
+		float: left;
+	}
+
+	#bagaimana #b-2 ul li #circle-c:nth-child(odd){
+		width: 100px;
+		height: 100px;
+	}
+
+	#bagaimana #b-2 ul li #circle-c:nth-child(even){
+		width: 70px;
+		margin: 0px 10px;
+		margin-top: 50px;
+		height: 2px;
+		background-color: #fff;
+	}
+
+	#bagaimana #b-2 ul li #circle-c img{
+		height: 100px;
+	}
+
+	#bagaimana #b-2 ul li:first-child #circle-c:nth-child(3) img{
+		height: 90px;
+	}
+
+	#bagaimana #b-2 ul li p{
+		width: 100px;
+		height: 55px;
+		float: left;
+		color: #fff;
+		margin-right: 90px;
+	}
+
+	#bagaimana #b-2 ul li p:last-child{
+		margin-right: 0px;
+	}
+
+	#footer{
+		background: none;
+		height: 200px;
+		background-color: #fff; 
+	}
+
+	#footer #info{
+		float: left;
+		margin-left: -2000px;
+		margin-top: -100px;
+		visibility: hidden;
+	}
+
+	#footer #info-2{
+		visibility: visible;
+		width: 500px;
+		height: 200px;
+	}
+
+	#footer #info-2 p{
+		width: 500px;
+		height: 30px;
+	}
+
+	#footer #info-2 ul{
+		width: 500px;
+		height: 120px;
+		list-style: none;
+		margin: 0px;
+		padding: 0px;
+		margin-top: 10px;
+	}
+
+	#footer #info-2 ul li{
+		width: 320px;
+		height: 50px;
+		margin-bottom: 15px;
+	}
+
+	#footer #info-2 ul li img{
+		margin-right: 20px;
+		float: left;
+	}
+
+	#footer #info-2 ul li p{
+		width: 250px;
+		height: 40px;
+		float: right;
+		padding-top: 10px;
+	}
+
+	#copy{
+		visibility: visible;
+		margin-top: -20px;
+	}
+}
+
+@media screen and (max-width: 640px){
+	#skip{
+		width: 150px;
+		height: 30px;
+		font-size: 10pt;
+		top: 225px;
+		left: 400px;
+	}
+
+	#header{
+		height: 60px;
+	}
+
+	#h{
+		width: 400px;
+		height: 60px;
+	}
+
+	#h-nav{
+		visibility: hidden;
+	}
+
+	#h-logo{
+		width: 300px;
+		height: 60px;
+		margin-top: -60px;
+	}
+
+	#h-logo img{
+		height: 55px;
+		margin-top: 0px;
+		float: left !important;
+	}
+
+	#triangle-1{
+		visibility: hidden;
+	}
+
+	#nav-small{
+		visibility: visible;
+		width: 100px;
+		height: 40px;
+		float: right;
+		margin-top: -60px;
+	}
+
+	#nav-small img{
+		height: 50px;
+		margin-top: 5px;
+	}
+
+	#nav-small img:hover{
+		cursor: pointer;
+	}
+
+	#nav-small ul{
+		width: 200px;
+		height: 160px;
+		list-style: none;
+		margin: 0px;
+		padding: 0px;
+		background-color: ;
+		margin-left: -100px !important;
+	}
+
+	#nav-small ul a li{
+		width: 200px;
+		height: 35px;
+		margin: 0px;
+		padding: 0px;
+		color: #fff;
+		padding-top: 5px;
+	}
+
+	#slider{
+		height: 200px;
+	}
+
+	#apa{
+		height: 400px;
+	}
+
+	#apa p:first-child{
+		width: 350px;
+		margin: 0px;
+		margin-left: 120px;
+	}
+
+	#apa p:nth-child(2){
+		width: 350px;
+		padding: 0px;
+	}
+
+	#mengapa{
+		height: 500px;
+	}
+
+	#mengapa ul{
+		width: 350px;
+		height: 370px;
+		margin-top: 15px;
+	}
+
+	#mengapa ul li{
+		width: 350px;
+		height: 110px;
+		margin-bottom: 10px;
+	}
+
+	#mengapa ul li #circle-b{
+		float: left;
+		width: 110px;
+		height: 110px;
+		border-radius: 0px;
+	}
+
+	#mengapa ul li #circle-b p{
+		visibility: hidden;
+	}
+
+	#me{
+		background-color: #fff;
+		visibility: visible;
+		width: 240px;
+		height: 100px;
+		float: right;
+		padding-top: 10px;
+	}
+
+	#mengapa ul li #circle-b img{
+		height: 80px;
+	}
+
+	#mengapa ul li #triangle-1-light-blue,#mengapa ul li #triangle-1-pink,#mengapa ul li #triangle-1-yellow{
+		z-index: 1;
+		position: relative;
+	}
+
+	#mengapa ul li #triangle-1-light-blue{
+		width: 0;
+		height: 0;
+		border-top: 15px solid transparent;
+		border-bottom: 15px solid transparent;
+		border-left: 15px solid #01c3df;
+		margin: 40px 0px 0px -100px;
+	}
+
+	#mengapa ul li #triangle-1-pink{
+		width: 0;
+		height: 0;
+		border-top: 15px solid transparent;
+		border-bottom: 15px solid transparent;
+		border-left: 15px solid #fe3153;
+		margin: 40px 0px 0px -100px;
+	}
+
+	#mengapa ul li #triangle-1-yellow{
+		width: 0;
+		height: 0;
+		border-top: 15px solid transparent !important;
+		border-bottom: 15px solid transparent !important;
+		border-left: 15px solid #fbed04 !important;
+		margin: 40px 0px 0px -100px;
+	}
+
+	#bagaimana #b-2 ul{
+		width: 400px;
+		margin-left: -40px;
+	}
+
+	#bagaimana #b-2 ul li{
+		width: 400px;
+	}
+
+	#bagaimana #b-2 ul li #circle-c{
+		width: 80px;
+		float: left;
+	}
+
+	#bagaimana #b-2 ul li #circle-c:nth-child(odd){
+		width: 80px;
+		height: 100px;
+	}
+
+	#bagaimana #b-2 ul li #circle-c:nth-child(even){
+		width: 60px;
+		margin: 0px 10px;
+		margin-top: 50px;
+		height: 2px;
+		background-color: #fff;
+	}
+
+	#bagaimana #b-2 ul li #circle-c img{
+		height: 80px;
+	}
+
+	#bagaimana #b-2 ul li:first-child #circle-c:nth-child(3) img{
+		height: 70px;
+	}
+
+	#bagaimana #b-2 ul li p{
+		width: 80px;
+		height: 50px;
+		float: left;
+		color: #fff;
+		margin-right: 80px;
+		font-size: 10pt !important;
+		padding-top: 5px;
+	}
+
+	#bagaimana #b-2 ul li p:last-child{
+		margin-right: 0px;
+	}
+
+	#footer #info-2{
+		width: 400px;
+	}
+
+	#footer #info-2 p{
+		width: 400px;
+	}
+
+	#footer #info-2 ul{
+		width: 400px;
+	}
+
+	#footer #info-2 ul li img{
+		margin-right: 20px;
+		float: left;
+	}
+
+	#footer #info-2 ul li p{
+		width: 250px;
+		height: 40px;
+		float: right;
+		padding-top: 10px;
+	}
+
+	#copy{
+		visibility: visible;
+		margin-top: -20px;
+		width: 400px;
+		font-size: 10pt;
+	}
+}
+
+@media screen and (max-width: 400px){
+	#header{
+		height: 40px;
+	}
+
+	#h{
+		width: 240px;
+		height: 40px;
+	}
+
+	#h-logo{
+		width: 150px;
+		height: 40px;
+	}
+
+	#h-logo img{
+		height: 35px;
+	}
+
+	#nav-small{
+		width: 90px;
+		height: 40px;
+		float: right;
+		margin-top: -120px;
+	}
+
+	#nav-small img{
+		height: 35px;
+		margin-top: 2px;
+	}
+
+	#nav-small ul{
+		width: 160px;
+		height: 100px;
+		margin-left: -70px !important;
+	}
+
+	#nav-small ul a li{
+		width: 160px;
+		height: 25px;
+		font-size: 10pt;
+	}
+
+	#slider{
+		height: 150px;
+		padding-top: 30px;
+	}
+
+	#apa p:first-child{
+		width: 180px;
+		margin-left: 65px;
+		font-size: 20pt !important;
+	}
+
+	#apa p:nth-child(2){
+		margin-top: 15px;
+		width: 230px;
+		height: 300px;
+		padding: 0px;
+		padding-top: 15px !important; 
+	}
+
+	#mengapa{
+		height: 400px;
+		padding-top: 30px;
+	}
+
+	#mengapa > p{
+		width: 220px;
+		font-size: 20pt !important;
+		margin-left: -15px;
+	}
+
+	#mengapa ul{
+		width: 220px;
+		height: 320px;
+		margin-top: 15px;
+		margin-top: 10px;
+	}
+
+	#mengapa ul li{
+		width: 220px;
+		height: 100px;
+		margin-bottom: 10px;
+	}
+
+	#mengapa ul li:last-child{
+		margin-bottom: 0px;
+	}
+
+	#me{
+		background-color: #fff;
+		visibility: visible;
+		width: 120px;
+		height: 70px;
+		float: right;
+		padding-top: 30px;
+		font-size: 9pt !important;
+	}
+
+	#mengapa ul li #circle-b{
+		float: left;
+		width: 100px;
+		height: 100px;
+		border-radius: 0px;
+	}
+
+	#mengapa ul li #circle-b img{
+		height: 65px;
+	}
+
+	#mengapa ul li #triangle-1-light-blue,#mengapa ul li #triangle-1-pink,#mengapa ul li #triangle-1-yellow{
+		z-index: 1;
+		position: relative;
+		margin: 40px 0px 0px 0px;
+	}
+
+	#mengapa ul li #triangle-1-yellow{
+		width: 0;
+		height: 0;
+		border-top: 10px solid transparent !important;
+		border-bottom: 10px solid transparent !important;
+		border-left: 10px solid #fbed04 !important;
+	}
+
+	#bagaimana{
+		height: 800px;
+		padding-top: 60px;
+	}
+
+	#bagaimana > p{
+		width: 220px;
+		margin-top: 0px;
+		font-size: 15pt !important;
+	}
+
+	#bagaimana #b-2 ul{
+		width: 220px;
+		height: 770px;
+		margin-left: -210px;
+	}
+
+	#bagaimana #b-2 ul li{
+		width: 220px;
+	}
+
+	#bagaimana #b-2 ul li:last-child{
+		top: -340px;
+		position: relative;
+	}
+
+	#bagaimana #b-2 ul li #circle-c:nth-child(odd){
+		width: 220px;
+		height: 80px;
+		margin-bottom: 0px;
+	}
+
+	#bagaimana #b-2 ul li #circle-c:nth-child(even){
+		width: 0px;
+		height: 0px;
+		visibility: hidden;
+	}
+
+	#bagaimana #b-2 ul li #circle-c img{
+		margin-top: 3px;
+		height: 80px;
+	}
+
+	#bagaimana #b-2 ul li:first-child #circle-c:nth-child(3) img{
+		height: 70px;
+	}
+
+	#bagaimana #b-2 ul li:last-child #circle-c:nth-child(3) img,#bagaimana #b-2 ul li:last-child #circle-c:nth-child(5) img{
+		height: 70px;
+	}
+
+	#bagaimana #b-2 ul li p{
+		width: 220px;
+		height: 35px;
+		margin-right: 80px;
+		margin-bottom: 85px;
+		position: relative;
+		top: -260px;
+		padding-top: 10px;
+	}
+
+	#footer{
+		background: none;
+		height: 80px;
+		background-color: #fbed04; 
+	}
+
+	#footer #info{
+		float: left;
+		margin-left: -2000px;
+		margin-top: -100px;
+		visibility: hidden;
+	}
+
+	#footer #info-2 p{
+		margin-left: -1000px;
+		visibility: hidden;
+	}
+
+	#copy{
+		visibility: visible;
+		width: 220px;
+		margin-top: -200px;
+	}
+}

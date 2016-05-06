@@ -1,0 +1,65 @@
+/************** BELLEROSE FONT ***************/
+
+@font-face {
+	font-family: Bellerose;
+	src: url("../_font/Bellerose.ttf");
+}
+
+@-moz-font-face {
+	font-family: Bellerose;
+	src: url("../_font/Bellerose.ttf");
+}
+
+@-webkit-font-face {
+	font-family: Bellerose;
+	src: url("../_font/Bellerose.ttf");
+}
+
+@-o-font-face {
+	font-family: Bellerose;
+	src: url("../_font/Bellerose.ttf");
+}
+
+/************** SEGOE UI LIGHT FONT ***************/
+
+@font-face {
+	font-family: Segoe UI Light;
+	src: url("../_font/segoeuil.ttf");
+}
+
+@-moz-font-face {
+	font-family: Segoe UI Light;
+	src: url("../_font/segoeuil.ttf");
+}
+
+@-webkit-font-face {
+	font-family: Segoe UI Light;
+	src: url("../_font/segoeuil.ttf");
+}
+
+@-o-font-face {
+	font-family: Segoe UI Light;
+	src: url("../_font/segoeuil.ttf");
+}
+
+/************** FONTAWESOME ***************/
+
+@font-face {
+	font-family: fontawesome;
+	src: url("../_font/fontawesome.ttf");
+}
+
+@-moz-font-face {
+	font-family: fontawesome;
+	src: url("../_font/fontawesome.ttf");
+}
+
+@-webkit-font-face {
+	font-family: fontawesome;
+	src: url("../_font/fontawesome.ttf");
+}
+
+@-o-font-face {
+	font-family: fontawesome;
+	src: url("../_font/fontawesome.ttf");
+}
